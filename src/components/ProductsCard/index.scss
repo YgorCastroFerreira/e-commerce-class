@@ -1,0 +1,21 @@
+@use '../../sass/variables' as *;
+
+.home__card{
+
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    margin: 20px;
+
+    img{
+
+        border-radius: 10px;
+    }
+   
+   .home__card-description{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+   }
+}
